@@ -1,1 +1,33 @@
 /*styling here*/
+
+body{
+	overflow-x: hidden;
+	 overflow-y: hidden; 
+	 height: 100%;
+	 width: 100%;
+	 position: absolute;
+	 background-color: black;
+	 background: url('http://www.wallpapermade.com/images/wallpapers/originals/amazing-nature-scenery-wallpaper-5431.jpg') no-repeat center center fixed;
+  	background-size: cover;
+	 z-index: -2;
+}
+
+	#buttonQuote {
+		margin-top: 190px;
+		padding: 10px;
+        -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+    }
+    .container.drop-shadow {
+        padding-left:0;
+        padding-right:0;
+    }
+    #quoteDiv{
+    	font-size: 20px;
+    	font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    	color: white;
+    }
+    #tweet{
+    	position: relative;
+    	top:10px;
+    }
