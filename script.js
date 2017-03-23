@@ -16,6 +16,7 @@ var rand;
 var date=Date();
 var displayDate = date.slice(4,15);
 var displayTime = date.slice(16,21);
+var hey;
 $("#dateDiv").text("Date:" + displayDate);
 $("#timeDiv").text("Time:" + displayTime);
 
