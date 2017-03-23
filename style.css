@@ -7,13 +7,24 @@
 	 width: 100%;
 	 position: absolute;
 	 background-color: black;
-	 background: url('http://www.wallpapermade.com/images/wallpapers/originals/amazing-nature-scenery-wallpaper-5431.jpg') no-repeat center center fixed;
-  	background-size: cover;
+	 background-image: url('http://www.wallpapermade.com/images/wallpapers/originals/amazing-nature-scenery-wallpaper-5431.jpg');
+  	 background-size: cover;
 	 z-index: -2;
 }
 
+    #dateDiv{
+        margin-top: 50px;
+        font-size: 50px;
+        font-family: Arial Black, Gadget, sans-serif;
+    }
+    #timeDiv{
+        margin-top: 10px;
+        font-size: 40px;
+        color: white;
+        font-family: Century Gothic, sans-serif;
+    }
 	#buttonQuote {
-		margin-top: 190px;
+		margin-top: 30px;
 		padding: 10px;
         -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
         box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);

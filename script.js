@@ -13,6 +13,11 @@ var arr= ["The ones who are crazy enough to think they can change the world are 
 		  "A happy person is not a person in a certain set of circumstances, but rather a person with a certain set of attitudes."];
 var myArray = [0,1,2,3,4,5,6,7,8,9,10];
 var rand;
+var date=Date();
+var displayDate = date.slice(4,15);
+var displayTime = date.slice(16,21);
+$("#dateDiv").text("Date:" + displayDate);
+$("#timeDiv").text("Time:" + displayTime);
 
 function tweetIt()
 {
